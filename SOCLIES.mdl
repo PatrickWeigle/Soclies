@@ -2458,6 +2458,21 @@
 				quid       	"59448A100338"
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Incluir"
+				quid       	"59449FDC013A"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Editar"
+				quid       	"59449FDC014A"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "exclui"
+				quid       	"59449FDC014B"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
 				uid        	0))
 			class_attributes 	(list class_attribute_list
 			    (object ClassAttribute "data_caixa"
@@ -2510,6 +2525,21 @@
 				uid        	0)
 			    (object Operation "setId_produto"
 				quid       	"59448AD701B1"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Incluir"
+				quid       	"59449F830025"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Editar"
+				quid       	"59449F8D03DE"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "exclui"
+				quid       	"59449FA503E2"
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
 				uid        	0))
@@ -2584,6 +2614,21 @@
 				quid       	"59448D090363"
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Incluir"
+				quid       	"59449FEF0292"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Editar"
+				quid       	"59449FEF0293"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "exclui"
+				quid       	"59449FEF02A1"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
 				uid        	0))
 			class_attributes 	(list class_attribute_list
 			    (object ClassAttribute "id_pedido"
@@ -2630,6 +2675,31 @@
 				quid       	"59448C410086"
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "getObservacao_agenda"
+				quid       	"59449E7B016B"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "setObservacao_agenda"
+				quid       	"59449E9D01B9"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Incluir"
+				quid       	"5944A0160379"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Editar"
+				quid       	"5944A0160389"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "exclui"
+				quid       	"5944A016038A"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
 				uid        	0))
 			class_attributes 	(list class_attribute_list
 			    (object ClassAttribute "id_Agenda"
@@ -2637,7 +2707,9 @@
 			    (object ClassAttribute "horario_Agenda"
 				quid       	"59447C50022F")
 			    (object ClassAttribute "id_cliente"
-				quid       	"59447C56006A")))
+				quid       	"59447C56006A")
+			    (object ClassAttribute "observacao_agenda"
+				quid       	"59449E5E005B")))
 		    (object Class "Cliente"
 			quid       	"59447C6103B6"
 			operations 	(list Operations
@@ -2730,6 +2802,31 @@
 				quid       	"59448DF9023F"
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "setNascimento_cliente"
+				quid       	"59449D08002C"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "getNascimento_cliente"
+				quid       	"59449D1803B6"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Incluir"
+				quid       	"59449FFE00DC"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Editar"
+				quid       	"59449FFE00EC"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "exclui"
+				quid       	"59449FFE00FC"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
 				uid        	0))
 			class_attributes 	(list class_attribute_list
 			    (object ClassAttribute "id_Cliente"
@@ -2749,7 +2846,9 @@
 			    (object ClassAttribute "nome_cliente"
 				quid       	"59447CE201B2")
 			    (object ClassAttribute "uf_cliente"
-				quid       	"59447CEA01B2")))
+				quid       	"59447CEA01B2")
+			    (object ClassAttribute "nascimento_cliente"
+				quid       	"59449CF200C1")))
 		    (object Class "Servico"
 			quid       	"59447CF5024E"
 			operations 	(list Operations
@@ -2780,6 +2879,21 @@
 				uid        	0)
 			    (object Operation "setValor_servico"
 				quid       	"59448BE90028"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Incluir"
+				quid       	"5944A00F00BD"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Editar"
+				quid       	"5944A00F00BE"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "exclui"
+				quid       	"5944A00F00CD"
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
 				uid        	0))
@@ -2830,6 +2944,21 @@
 				uid        	0)
 			    (object Operation "setId_pedido"
 				quid       	"59448B89004E"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Incluir"
+				quid       	"59449FCB02C9"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "Editar"
+				quid       	"59449FCB02CA"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "exclui"
+				quid       	"59449FCB02D8"
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
 				uid        	0))
@@ -3377,7 +3506,7 @@
 		    (object ClassDiagram "Diagrama de Classes"
 			quid       	"594475830289"
 			title      	"Diagrama de Classes"
-			zoom       	100
+			zoom       	90
 			max_height 	28350
 			max_width  	21600
 			origin_x   	0
@@ -3387,7 +3516,7 @@
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
-				location   	(1360, 432)
+				location   	(1360, 464)
 				font       	(object Font
 				    size       	9
 				    face       	"Arial"
@@ -3399,25 +3528,43 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@111
-				    location   	(1120, 27)
+				    location   	(1127, 9)
 				    fill_color 	13434879
 				    nlines     	1
-				    max_width  	480
+				    max_width  	466
 				    justify    	0
 				    label      	"Caixa")
 				icon_style 	"Label"
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"594475A70040"
-				width      	498
-				height     	832
+				compartment 	(object Compartment
+				    Parent_View 	@111
+				    location   	(1127, 65)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	16777215
+				    anchor     	2
+				    nlines     	19
+				    max_width  	462
+				    justify    	1)
+				width      	484
+				height     	932
 				annotation 	8
 				autoResize 	TRUE)
 			    (object ClassView "Class" "Logical View::Design Model::Produto" @112
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
-				location   	(304, 352)
+				location   	(304, 400)
 				font       	(object Font
 				    size       	9
 				    face       	"Arial"
@@ -3429,25 +3576,43 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@112
-				    location   	(60, 17)
+				    location   	(68, 12)
 				    fill_color 	13434879
 				    nlines     	1
-				    max_width  	488
+				    max_width  	472
 				    justify    	0
 				    label      	"Produto")
 				icon_style 	"Icon"
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"59447BBE0348"
-				width      	506
-				height     	692
+				compartment 	(object Compartment
+				    Parent_View 	@112
+				    location   	(68, 68)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	16777215
+				    anchor     	2
+				    nlines     	16
+				    max_width  	469
+				    justify    	1)
+				width      	490
+				height     	798
 				annotation 	8
 				autoResize 	TRUE)
 			    (object ClassView "Class" "Logical View::Design Model::Pedido" @113
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
-				location   	(1888, 496)
+				location   	(1888, 528)
 				font       	(object Font
 				    size       	9
 				    face       	"Arial"
@@ -3459,25 +3624,43 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@113
-				    location   	(1648, 20)
+				    location   	(1659, 5)
 				    fill_color 	13434879
 				    nlines     	1
-				    max_width  	480
+				    max_width  	458
 				    justify    	0
 				    label      	"Pedido")
 				icon_style 	"Icon"
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"59447BFD0193"
-				width      	498
-				height     	974
+				compartment 	(object Compartment
+				    Parent_View 	@113
+				    location   	(1659, 61)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	16777215
+				    anchor     	2
+				    nlines     	22
+				    max_width  	455
+				    justify    	1)
+				width      	476
+				height     	1068
 				annotation 	8
 				autoResize 	TRUE)
 			    (object ClassView "Class" "Logical View::Design Model::Agenda" @114
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
-				location   	(816, 1008)
+				location   	(832, 1296)
 				font       	(object Font
 				    size       	9
 				    face       	"Arial"
@@ -3489,25 +3672,43 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@114
-				    location   	(608, 744)
+				    location   	(597, 908)
 				    fill_color 	13434879
 				    nlines     	1
-				    max_width  	416
+				    max_width  	470
 				    justify    	0
 				    label      	"Agenda")
 				icon_style 	"Icon"
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"59447C4401D1"
-				width      	434
-				height     	550
+				compartment 	(object Compartment
+				    Parent_View 	@114
+				    location   	(597, 964)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	16777215
+				    anchor     	2
+				    nlines     	16
+				    max_width  	466
+				    justify    	1)
+				width      	488
+				height     	798
 				annotation 	8
 				autoResize 	TRUE)
 			    (object ClassView "Class" "Logical View::Design Model::Cliente" @115
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
-				location   	(2416, 704)
+				location   	(2416, 800)
 				font       	(object Font
 				    size       	9
 				    face       	"Arial"
@@ -3519,7 +3720,7 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@115
-				    location   	(2190, 17)
+				    location   	(2190, 7)
 				    fill_color 	13434879
 				    nlines     	1
 				    max_width  	452
@@ -3529,15 +3730,33 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"59447C6103B6"
+				compartment 	(object Compartment
+				    Parent_View 	@115
+				    location   	(2190, 63)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	16777215
+				    anchor     	2
+				    nlines     	34
+				    max_width  	448
+				    justify    	1)
 				width      	470
-				height     	1396
+				height     	1608
 				annotation 	8
 				autoResize 	TRUE)
 			    (object ClassView "Class" "Logical View::Design Model::Servico" @116
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
-				location   	(288, 1008)
+				location   	(288, 1200)
 				font       	(object Font
 				    size       	9
 				    face       	"Arial"
@@ -3549,25 +3768,43 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@116
-				    location   	(96, 744)
+				    location   	(109, 880)
 				    fill_color 	13434879
 				    nlines     	1
-				    max_width  	384
+				    max_width  	358
 				    justify    	0
 				    label      	"Servico")
 				icon_style 	"Icon"
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"59447CF5024E"
-				width      	402
-				height     	550
+				compartment 	(object Compartment
+				    Parent_View 	@116
+				    location   	(109, 936)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	16777215
+				    anchor     	2
+				    nlines     	13
+				    max_width  	355
+				    justify    	1)
+				width      	376
+				height     	662
 				annotation 	8
 				autoResize 	TRUE)
 			    (object ClassView "Class" "Logical View::Design Model::Servico_Pedido" @117
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
-				location   	(832, 352)
+				location   	(832, 400)
 				font       	(object Font
 				    size       	9
 				    face       	"Arial"
@@ -3579,18 +3816,36 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@117
-				    location   	(593, 17)
+				    location   	(603, 12)
 				    fill_color 	13434879
 				    nlines     	1
-				    max_width  	478
+				    max_width  	458
 				    justify    	0
 				    label      	"Servico_Pedido")
 				icon_style 	"Icon"
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"59447D4C0135"
-				width      	496
-				height     	692
+				compartment 	(object Compartment
+				    Parent_View 	@117
+				    location   	(603, 68)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	16777215
+				    anchor     	2
+				    nlines     	16
+				    max_width  	455
+				    justify    	1)
+				width      	476
+				height     	798
 				annotation 	8
 				autoResize 	TRUE))))))
 	logical_presentations 	(list unit_reference_list
