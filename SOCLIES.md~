@@ -2964,6 +2964,24 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"594475A70040"
+				compartment 	(object Compartment
+				    Parent_View 	@106
+				    location   	(1608, 114)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	13434879
+				    anchor     	2
+				    nlines     	10
+				    max_width  	397
+				    justify    	1)
 				width      	418
 				height     	550
 				annotation 	8
@@ -2994,6 +3012,24 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"59447BBE0348"
+				compartment 	(object Compartment
+				    Parent_View 	@107
+				    location   	(103, 103)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	13434879
+				    anchor     	2
+				    nlines     	5
+				    max_width  	400
+				    justify    	1)
 				width      	420
 				height     	316
 				annotation 	8
@@ -3024,6 +3060,24 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"59447BFD0193"
+				compartment 	(object Compartment
+				    Parent_View 	@108
+				    location   	(504, 568)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	13434879
+				    anchor     	2
+				    nlines     	7
+				    max_width  	397
+				    justify    	1)
 				width      	418
 				height     	410
 				annotation 	8
@@ -3054,6 +3108,24 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"59447C4401D1"
+				compartment 	(object Compartment
+				    Parent_View 	@109
+				    location   	(1547, 751)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	13434879
+				    anchor     	2
+				    nlines     	4
+				    max_width  	328
+				    justify    	1)
 				width      	348
 				height     	268
 				annotation 	8
@@ -3084,6 +3156,24 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"59447C6103B6"
+				compartment 	(object Compartment
+				    Parent_View 	@110
+				    location   	(2277, 194)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	13434879
+				    anchor     	2
+				    nlines     	10
+				    max_width  	372
+				    justify    	1)
 				width      	392
 				height     	550
 				annotation 	8
@@ -3114,6 +3204,24 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"59447CF5024E"
+				compartment 	(object Compartment
+				    Parent_View 	@111
+				    location   	(1148, 799)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	13434879
+				    anchor     	2
+				    nlines     	4
+				    max_width  	294
+				    justify    	1)
 				width      	314
 				height     	268
 				annotation 	8
@@ -3144,6 +3252,24 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"59447D4C0135"
+				compartment 	(object Compartment
+				    Parent_View 	@112
+				    location   	(1003, 359)
+				    font       	(object Font
+					size       	9
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	13434879
+				    anchor     	2
+				    nlines     	5
+				    max_width  	391
+				    justify    	1)
 				width      	412
 				height     	316
 				annotation 	8
@@ -3332,44 +3458,9 @@
 			documentation 	"This process corresponds to the thread with the same name in the Logical View::Process Model."
 			stereotype 	"thread"
 			priority   	"")))
-	    (object Processor "Computador1"
-		quid       	"59448B14025C"
-		connections 	(list connection_list
-		    (object Connection_Relationship
-			quid       	"59448B490386"
-			stereotype 	"Ethernet"
-			supplier   	"Roteador"
-			quidu      	"59448B3E021F"
-			supplier_is_device 	TRUE)
-		    (object Connection_Relationship
-			quid       	"59448B8500E2"
-			supplier   	"Impressora"
-			quidu      	"59448B7703D0"
-			supplier_is_device 	TRUE))
-		characteristics 	""
-		scheduling 	"Preemptive"
-		processes  	(list processes))
-	    (object Processor "Servidor"
-		quid       	"59448B5803A6"
-		characteristics 	""
-		scheduling 	"Preemptive"
-		processes  	(list processes))
 	    (object Device "<device name>"
 		quid       	"34DBBD47019A"
 		documentation 	"This device provides <enter a short description of the capability the device provides> for the system."
-		characteristics 	"")
-	    (object Device "Roteador"
-		quid       	"59448B3E021F"
-		connections 	(list connection_list
-		    (object Connection_Relationship
-			quid       	"59448B650183"
-			stereotype 	"Ethernet"
-			supplier   	"Servidor"
-			quidu      	"59448B5803A6"
-			supplier_is_device 	FALSE))
-		characteristics 	"")
-	    (object Device "Impressora"
-		quid       	"59448B7703D0"
 		characteristics 	"")
 	    (object Process_Diagram "Deployment View"
 		quid       	"34DBB4830146"
@@ -3388,10 +3479,10 @@
 		max_height 	28350
 		max_width  	21600
 		origin_x   	0
-		origin_y   	538
+		origin_y   	0
 		items      	(list diagram_item_list
-		    (object ProcessorView "Computador1" @116
-			location   	(992, 528)
+		    (object ProcessorView "<processor name>" @116
+			location   	(512, 1056)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -3403,19 +3494,18 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@116
-			    location   	(803, 410)
+			    location   	(276, 900)
 			    nlines     	2
-			    max_width  	306
+			    max_width  	400
 			    justify    	0
-			    label      	"Computador1")
+			    label      	"<processor name>")
 			icon_style 	"Label"
-			line_color 	3342489
-			quidu      	"59448B14025C"
-			width      	381
-			height     	306
-			annotation 	0)
-		    (object DeviceView "Roteador" @117
-			location   	(992, 1152)
+			quidu      	"34DBBD4300B4"
+			width      	475
+			height     	381
+			annotation 	3)
+		    (object DeviceView "<device name>" @117
+			location   	(1040, 1056)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -3427,58 +3517,27 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@117
-			    location   	(837, 1062)
+			    location   	(867, 950)
 			    nlines     	2
-			    max_width  	238
+			    max_width  	275
 			    justify    	0
-			    label      	"Roteador")
+			    label      	"<device name>")
 			icon_style 	"Icon"
-			line_color 	3342489
-			quidu      	"59448B3E021F"
-			width      	313
-			height     	250
+			quidu      	"34DBBD47019A"
+			width      	350
+			height     	282
 			annotation 	0)
 		    (object ConnectionView "" @118
-			font       	(object Font
-			    size       	9
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			stereotype 	(object SegLabel @119
-			    Parent_View 	@118
-			    location   	(1100, 861)
-			    font       	(object Font
-				size       	9
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    anchor     	10
-			    anchor_loc 	1
-			    nlines     	1
-			    max_width  	450
-			    justify    	0
-			    label      	"<<Ethernet>>"
-			    pctDist    	0.500000
-			    height     	108
-			    orientation 	0)
-			line_color 	3342489
-			quidu      	"59448B490386"
+			stereotype 	TRUE
+			quidu      	"34DBBD4B008C"
 			client     	@116
 			supplier   	@117
 			vertices   	(list Points
-			    (992, 681)
-			    (992, 1042))
+			    (718, 1056)
+			    (865, 1056))
 			line_style 	0)
-		    (object ProcessorView "Servidor" @120
-			location   	(1824, 1152)
+		    (object NoteView @119
+			location   	(816, 304)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -3489,91 +3548,26 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@120
-			    location   	(1669, 1062)
-			    nlines     	2
-			    max_width  	238
-			    justify    	0
-			    label      	"Servidor")
-			icon_style 	"Icon"
+			    Parent_View 	@119
+			    location   	(38, 29)
+			    fill_color 	13434879
+			    nlines     	11
+			    max_width  	1521
+			    justify    	1
+			    label      	
+|This Diagram defines the typical physical network configurations, including those typically used by end users, as well as special configurations used for development and test.
+|
+|· Allocate processes to the various nodes. Allocation takes into account the capacity of the nodes (in terms of
+|both memory and processing), bandwidth of the communication medium (bus, LANs, WANs), and the
+|availability of the hardware and communication links, rerouting, and so on.
+|
+|See, Rational Unified Process:
+|Activity: Describe Distribution
+			    )
 			line_color 	3342489
-			quidu      	"59448B5803A6"
-			width      	313
-			height     	250
-			annotation 	0)
-		    (object ConnectionView "" @121
-			font       	(object Font
-			    size       	9
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			stereotype 	(object SegLabel @122
-			    Parent_View 	@121
-			    location   	(1392, 1045)
-			    font       	(object Font
-				size       	9
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    anchor     	10
-			    anchor_loc 	1
-			    nlines     	1
-			    max_width  	450
-			    justify    	0
-			    label      	"<<Ethernet>>"
-			    pctDist    	0.500000
-			    height     	108
-			    orientation 	0)
-			line_color 	3342489
-			quidu      	"59448B650183"
-			client     	@117
-			supplier   	@120
-			vertices   	(list Points
-			    (1117, 1152)
-			    (1668, 1152))
-			line_style 	0)
-		    (object DeviceView "Impressora" @123
-			location   	(1904, 528)
-			font       	(object Font
-			    size       	9
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@123
-			    location   	(1746, 435)
-			    nlines     	2
-			    max_width  	244
-			    justify    	0
-			    label      	"Impressora")
-			icon_style 	"Icon"
-			line_color 	3342489
-			quidu      	"59448B7703D0"
-			width      	319
-			height     	256
-			annotation 	0)
-		    (object ConnectionView "" @124
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"59448B8500E2"
-			client     	@116
-			supplier   	@123
-			vertices   	(list Points
-			    (1151, 528)
-			    (1745, 528))
-			line_style 	0)))))
+			fill_color 	13434879
+			width      	1581
+			height     	563)))))
     properties 	(object Properties
 	attributes 	(list Attribute_Set
 	    (object Attribute
